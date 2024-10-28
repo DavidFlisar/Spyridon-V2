@@ -1,0 +1,28 @@
+{
+    "net.minecraft.client.gui.screens.inventory.ContainerScreen": {
+        "buttonHints": {
+            "SORT": {
+                "horizontalOffset": 32
+            },
+            "MOVE_TO_PLAYER": {
+                "horizontalOffset": 32
+            },
+            "SORT_COLUMNS": {
+                "horizontalOffset": 32
+            },
+            "SORT_ROWS": {
+                "horizontalOffset": 32
+            },
+            "SHOW_EDITOR": {
+                "top": 33
+            }
+        }
+    },
+    "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen": {
+        "buttonHints": {
+            "SHOW_EDITOR": {
+                "top": 36
+            }
+        }
+    }
+}
