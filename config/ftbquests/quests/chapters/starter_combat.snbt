@@ -1,0 +1,651 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starter_combat"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:bow"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "101C0956DFDF189D"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You can use the dye to color the bed."]
+			id: "06C060F1A5F09883"
+			rewards: [{
+				id: "7D20419C6C18FF10"
+				item: "minecraft:brown_dye"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "Sacrifice them for the greater good of making a bed."
+			tasks: [{
+				entity: "minecraft:sheep"
+				icon: "simplehats:sheep"
+				id: "37EC91067E161D84"
+				title: "Kill 3 Sheep"
+				type: "kill"
+				value: 3L
+			}]
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06C060F1A5F09883"]
+			id: "0C3563ACCFE43AF2"
+			rewards: [{
+				id: "49DC02A82A609439"
+				item: "supplementaries:feather_block"
+				type: "item"
+			}]
+			subtitle: "Juicy checken."
+			tasks: [{
+				count: 6L
+				id: "45DF19B76E32BA43"
+				item: { Count: 6, id: "minecraft:cooked_chicken" }
+				type: "item"
+			}]
+			title: "Obtain 6 Cooked Chicken"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06C060F1A5F09883"]
+			id: "12E74A06B7E5C3CA"
+			rewards: [{
+				count: 6
+				id: "65DC0066EB0FB049"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			subtitle: "Milk it, touch it, ride it."
+			tasks: [{
+				count: 4L
+				id: "2B922EAAE91B3653"
+				item: { Count: 4, id: "minecraft:milk_bucket" }
+				type: "item"
+			}]
+			title: "Obtain 4 Milk Buckets"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["06C060F1A5F09883"]
+			id: "6DD4B3D9C53B8784"
+			rewards: [{
+				id: "015470E6BC461F52"
+				item: {
+					Count: 1
+					id: "majruszsaccessories:lucky_rock"
+					tag: {
+						Bonus: {
+							Boosters: [ ]
+							Value: -0.6f
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Lucky charm I guess."
+			tasks: [{
+				count: 4L
+				id: "0125506EAC1AE503"
+				item: { Count: 4, id: "minecraft:rabbit_foot" }
+				type: "item"
+			}]
+			title: "Obtain 4 Rabbit's Foot"
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["06C060F1A5F09883"]
+			id: "0995D2920665B256"
+			rewards: [{
+				id: "69F1700B254B171A"
+				item: {
+					Count: 1
+					id: "farmersdelight:iron_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Bad Piggies."
+			tasks: [{
+				count: 12L
+				id: "1FDAAF29DCDEFEEB"
+				item: { Count: 12, id: "minecraft:cooked_porkchop" }
+				type: "item"
+			}]
+			title: "Obtain 12 Cooked Porkchops"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["06C060F1A5F09883"]
+			id: "38D527B8C87E1C3C"
+			rewards: [{
+				id: "2EA8745C885BA8EC"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Hunt them."
+			tasks: [{
+				count: 6L
+				id: "283900855871664F"
+				item: { Count: 6, id: "minecraft:salmon" }
+				type: "item"
+			}]
+			title: "Obtain 6 Raw Salmon"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["06C060F1A5F09883"]
+			id: "15ECA6CE91CA7D61"
+			rewards: [{
+				count: 2
+				id: "4314F6E97C3AA7B0"
+				item: "minecraft:sunflower"
+				type: "item"
+			}]
+			subtitle: "Puff Diddy."
+			tasks: [{
+				count: 2L
+				id: "79385CCABC4E9503"
+				item: { Count: 2, id: "minecraft:pufferfish_bucket" }
+				type: "item"
+			}]
+			title: "Catch 2 Pufferfish"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E74A06B7E5C3CA"]
+			id: "5C3F9BBA529F6A01"
+			rewards: [{
+				id: "7C5B787686DA51AC"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			subtitle: "Don't let them catch you lacking."
+			tasks: [{
+				entity: "minecraft:cow"
+				icon: "minecraft:cow_spawn_egg"
+				id: "79D5A697331CF4B9"
+				title: "Kill 10 Cows"
+				type: "kill"
+				value: 10L
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["12E74A06B7E5C3CA"]
+			id: "150DCFD84C298C57"
+			rewards: [{
+				id: "296B45DB2AD85DA1"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "goblintraders:extended_night_vision"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Justice."
+			tasks: [{
+				entity: "minecraft:bat"
+				id: "4FF4F30793FB70A1"
+				title: "Kill 4 Bats"
+				type: "kill"
+				value: 4L
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DD4B3D9C53B8784"]
+			id: "2B1DE655FEA35FB4"
+			rewards: [{
+				id: "031BB25A84F73996"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			subtitle: "A meal is a meal."
+			tasks: [{
+				count: 5L
+				id: "6167C28EA2F0EA79"
+				item: { Count: 5, id: "minecraft:rabbit_stew" }
+				type: "item"
+			}]
+			title: "Obtain 5 Rabbit Stew"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6DD4B3D9C53B8784"]
+			id: "00696FFCE9049F25"
+			rewards: [{
+				id: "441823F0CA7E8F1D"
+				item: "minecraft:leather_horse_armor"
+				type: "item"
+			}]
+			subtitle: "Skin them."
+			tasks: [{
+				count: 10L
+				id: "05F6B0E0672CC555"
+				item: { Count: 10, id: "minecraft:rabbit_hide" }
+				type: "item"
+			}]
+			title: "Obtain 10 Rabbit Hides"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["0C3563ACCFE43AF2"]
+			id: "7534E5E2C1900448"
+			rewards: [{
+				id: "31881A5C26FD17A4"
+				item: "minecraft:turtle_egg"
+				type: "item"
+			}]
+			subtitle: "A Humble Farmer."
+			tasks: [{
+				count: 16L
+				id: "07A7CE1FC1CE54DA"
+				item: { Count: 16, id: "minecraft:egg" }
+				type: "item"
+			}]
+			title: "Obtain 16 Eggs"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C3563ACCFE43AF2"]
+			id: "6E05F7055B4BC49F"
+			rewards: [{
+				id: "489B84CB8C24F21A"
+				item: {
+					Count: 1
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Chop Chop."
+			tasks: [{
+				count: 12L
+				id: "00AC2CCE8C4BDB9F"
+				item: { Count: 12, id: "farmersdelight:cooked_chicken_cuts" }
+				type: "item"
+			}]
+			title: "Obtain 12 Cooked Chicken Cuts"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"7534E5E2C1900448"
+				"6E05F7055B4BC49F"
+				"2B1DE655FEA35FB4"
+				"00696FFCE9049F25"
+				"0C3563ACCFE43AF2"
+			]
+			id: "79B3B9B9702E2145"
+			rewards: [{
+				count: 4
+				id: "1934E31648D901D2"
+				item: "naturalist:bear_fur"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Freddy Fazbear. Just don't right click the bear repeatedly."
+			tasks: [{
+				entity: "alexsmobs:grizzly_bear"
+				icon: "naturalist:teddy_bear"
+				id: "659C0D73F9C8292D"
+				title: "Kill 2 Grizzly Bears"
+				type: "kill"
+				value: 2L
+			}]
+			x: -1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"150DCFD84C298C57"
+				"15ECA6CE91CA7D61"
+				"38D527B8C87E1C3C"
+				"32766E4C566607A6"
+			]
+			id: "0036F6EF5D8B218A"
+			rewards: [{
+				id: "31B147F463272AB3"
+				item: {
+					Count: 1
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "goblintraders:extended_water_breathing"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Sometimes they can be annoying."
+			tasks: [{
+				entity: "minecraft:dolphin"
+				icon: "simplehats:babydolphin"
+				id: "61342B4929F48CE6"
+				title: "Kill 3 Dolphin"
+				type: "kill"
+				value: 3L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"7534E5E2C1900448"
+				"0C3563ACCFE43AF2"
+				"5C3F9BBA529F6A01"
+				"12E74A06B7E5C3CA"
+				"150DCFD84C298C57"
+			]
+			id: "12DA2912FD90BB5A"
+			rewards: [{
+				id: "4E4065FB47563340"
+				item: "organics:wandering_bag"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "I hope they die."
+			tasks: [{
+				entity: "minecraft:wandering_trader"
+				icon: "wandering_bags:wandering_bag"
+				id: "382DE3D761B33295"
+				title: "Kill 2 Wandering Traders"
+				type: "kill"
+				value: 2L
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"00696FFCE9049F25"
+				"6DD4B3D9C53B8784"
+				"0995D2920665B256"
+				"38D527B8C87E1C3C"
+				"32766E4C566607A6"
+			]
+			id: "5408F8C1525A2DAB"
+			rewards: [{
+				count: 16
+				id: "007DC30759D33794"
+				item: "minecraft:cookie"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "You know, they do like cookies. Feed them"
+			tasks: [{
+				entity: "minecraft:parrot"
+				icon: "minecraft:parrot_spawn_egg"
+				id: "0486D445E9E962E9"
+				title: "Kill 4 Parrots"
+				type: "kill"
+				value: 4L
+			}]
+			x: 4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["38D527B8C87E1C3C"]
+			id: "32766E4C566607A6"
+			rewards: [{
+				count: 3
+				id: "125E7A113D2D4EBC"
+				item: "ribbits:swamp_lantern"
+				type: "item"
+			}]
+			subtitle: "Axel F."
+			tasks: [{
+				entity: "minecraft:frog"
+				icon: "minecraft:frog_spawn_egg"
+				id: "6BBDFEC0DA0AAB20"
+				title: "Kill 3 Frogs"
+				type: "kill"
+				value: 3L
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7534E5E2C1900448"
+				"79B3B9B9702E2145"
+				"12DA2912FD90BB5A"
+			]
+			id: "542416D3B8C92486"
+			rewards: [{
+				id: "7BCD0233DA7D812F"
+				item: "alexsmobs:small_catfish_bucket"
+				type: "item"
+			}]
+			subtitle: "8 Tropical Fish for a Fish Friend."
+			tasks: [{
+				count: 8L
+				id: "2A881E01FBB90A9C"
+				item: { Count: 8, id: "minecraft:tropical_fish" }
+				type: "item"
+			}]
+			title: "Obtain 8 Tropical Fish"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"79B3B9B9702E2145"
+				"00696FFCE9049F25"
+				"5408F8C1525A2DAB"
+			]
+			id: "49FA602795792BBE"
+			rewards: [{
+				id: "53BE0B8C5E07C970"
+				item: {
+					Count: 1
+					id: "cosmeticarmoursmod:axolotl_mask_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sorry..."
+			tasks: [{
+				entity: "minecraft:axolotl"
+				icon: "simplehats:axolotl_on_head"
+				id: "32FB43DC8E9A54A1"
+				title: "Kill 6 Axolotls"
+				type: "kill"
+				value: 6L
+			}]
+			x: 1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5408F8C1525A2DAB"
+				"32766E4C566607A6"
+				"0036F6EF5D8B218A"
+			]
+			id: "6F8F043F58C6CDAE"
+			rewards: [{
+				id: "3EB5E0F19C198FA1"
+				item: {
+					Count: 1
+					id: "sophisticatedstorage:diamond_chest"
+					tag: {
+						woodType: "bamboo"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Do they drop bam-boo?"
+			tasks: [{
+				entity: "minecraft:panda"
+				icon: "minecraft:panda_spawn_egg"
+				id: "7701E60176D3B05D"
+				title: "Kill 7 Pandas"
+				type: "kill"
+				value: 7L
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"12DA2912FD90BB5A"
+				"150DCFD84C298C57"
+				"0036F6EF5D8B218A"
+			]
+			id: "0E8C4FBE521FF187"
+			rewards: [{
+				count: 8
+				id: "431027F410B964FE"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			subtitle: "Helps reduce Fall Damage."
+			tasks: [{
+				count: 4L
+				id: "05CA7931BD7C9D78"
+				item: { Count: 4, id: "minecraft:honey_block" }
+				type: "item"
+			}]
+			title: "Obtain 4 Honey Blocks"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"49FA602795792BBE"
+				"542416D3B8C92486"
+				"79B3B9B9702E2145"
+			]
+			id: "7390083595CBA8CC"
+			rewards: [{
+				id: "1FFC63739FD31D33"
+				item: "simplehats:foxhat"
+				type: "item"
+			}]
+			subtitle: "Foxy."
+			tasks: [{
+				entity: "minecraft:zombie"
+				icon: "minecraft:fox_spawn_egg"
+				id: "4612C4A1CDDA021A"
+				title: "Kill 6 Foxes"
+				type: "kill"
+				value: 6L
+			}]
+			x: -2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0E8C4FBE521FF187"
+				"0036F6EF5D8B218A"
+				"6F8F043F58C6CDAE"
+			]
+			id: "543A32BEA0F10443"
+			rewards: [{
+				count: 4
+				id: "63E0AE095FDEEAC5"
+				item: "miners_delight:squid"
+				type: "item"
+			}]
+			subtitle: "4=4"
+			tasks: [{
+				entity: "minecraft:squid"
+				icon: "minecraft:squid_spawn_egg"
+				id: "54C844350816EC4D"
+				title: "Kill 4 Squid"
+				type: "kill"
+				value: 4L
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"12DA2912FD90BB5A"
+				"542416D3B8C92486"
+				"0E8C4FBE521FF187"
+			]
+			id: "267840CFEB001602"
+			rewards: [{
+				id: "6E11AACC8A2D3423"
+				item: {
+					Count: 1
+					id: "useless_sword:mushroom_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Mooooooo-shroom."
+			tasks: [{
+				entity: "minecraft:mooshroom"
+				icon: "minecraft:mooshroom_spawn_egg"
+				id: "40C1D928B5765D23"
+				title: "Kill 2 Mooshroom"
+				type: "kill"
+				value: 2L
+			}]
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"5408F8C1525A2DAB"
+				"49FA602795792BBE"
+				"6F8F043F58C6CDAE"
+			]
+			id: "78C473AC93C6DA48"
+			rewards: [{
+				id: "61A3ECAE6AEBECE4"
+				item: "simplehats:villagernose"
+				type: "item"
+			}]
+			subtitle: "They don't want you to know this one simple trick."
+			tasks: [{
+				entity: "minecraft:villager"
+				icon: "minecraft:emerald"
+				id: "1E2ACB2DFC397C6A"
+				title: "Kill 1 Villager"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: -6.0d
+		}
+	]
+	subtitle: ["What good is combat if you can't fight"]
+	title: "Weak Hunter"
+}

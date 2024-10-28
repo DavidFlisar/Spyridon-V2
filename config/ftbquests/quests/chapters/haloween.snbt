@@ -1,0 +1,274 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "haloween"
+	group: ""
+	icon: "born_in_chaos_v1:pumpkin_bullet"
+	id: "372DB3893F4B6E92"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "01BF2801E0804BC5"
+			rewards: [{
+				id: "72FDB75921B07172"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: "minecraft:pumpkin"
+				id: "34214ABB2C8D81F4"
+				title: "1# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01BF2801E0804BC5"]
+			id: "11D6325B3C4356A9"
+			rewards: [{
+				id: "0913903393B46648"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 2, id: "minecraft:pumpkin" }
+				id: "568A78B9B6A7DF4F"
+				title: "2# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["11D6325B3C4356A9"]
+			id: "705559238B2C1814"
+			rewards: [{
+				id: "390D4FF36C4F4A4E"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 3, id: "minecraft:pumpkin" }
+				id: "623BD0ACC7B16A69"
+				title: "3# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["705559238B2C1814"]
+			id: "483D2DCFFC0C47D3"
+			rewards: [{
+				id: "456C0BEFEA0DDA79"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 4, id: "minecraft:pumpkin" }
+				id: "7C55A3A48CA55BAD"
+				title: "4# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["483D2DCFFC0C47D3"]
+			id: "20FA7F6B46135DA6"
+			rewards: [{
+				id: "40022A8C7C53D035"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 5, id: "minecraft:pumpkin" }
+				id: "6CDA9E72ACAD5B37"
+				title: "5# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["20FA7F6B46135DA6"]
+			id: "5EBFC68572E9C919"
+			rewards: [{
+				id: "466232E89D11F294"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 6, id: "minecraft:pumpkin" }
+				id: "5283660BAA98941B"
+				title: "6# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5EBFC68572E9C919"]
+			id: "5AE122F639B577D6"
+			rewards: [{
+				id: "2727C718B73AA6CF"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 7, id: "minecraft:pumpkin" }
+				id: "2B381A053A3CE979"
+				title: "7# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5AE122F639B577D6"]
+			id: "15479C924769CEFC"
+			rewards: [{
+				id: "496F141264CF5490"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 8, id: "minecraft:pumpkin" }
+				id: "55CB23DDE07EA697"
+				title: "8# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15479C924769CEFC"]
+			id: "6BF9C1AC107BB2D0"
+			rewards: [{
+				id: "5D7470A70875CDAD"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 9, id: "minecraft:pumpkin" }
+				id: "4AF32ED7AC1551E3"
+				title: "9# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 13.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6BF9C1AC107BB2D0"]
+			id: "1D9425D7EAAA9884"
+			rewards: [{
+				id: "1BC5F7A8A5E80974"
+				item: "simplehats:hatbag_halloween"
+				type: "item"
+			}]
+			subtitle: "Work Hard, Play Hard"
+			tasks: [{
+				block: "minecraft:pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: { Count: 10, id: "minecraft:pumpkin" }
+				id: "0319A4C8FCA8C960"
+				title: "10# Break 100 Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1D9425D7EAAA9884"]
+			id: "02C933BD7074AA12"
+			rewards: [
+				{
+					command: "/give @p golden_axe{display:{Name:'[\"\",{\"text\":\"Pumpkin Dicer 3.0\",\"italic\":false,\"bold\":true,\"color\":\"yellow\"}]'},Enchantments:[{lvl:5,id:efficiency}],AttributeModifiers:[{AttributeName:\"generic.luck\",Amount:0.5,Slot:mainhand,Operation:1,UUID:[I;-124919,27735,2537,-55470],Name:1729297445010},{AttributeName:\"generic.movement_speed\",Amount:0.5,Slot:mainhand,Operation:1,UUID:[I;-124919,28035,2537,-56070],Name:1729297445010}],CanDestroy:[pumpkin,carved_pumpkin],Unbreakable:1,fire_resistant:{}}"
+					elevate_perms: true
+					icon: {
+						Count: 1
+						id: "minecraft:golden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "645AE601A75BA815"
+					silent: true
+					title: "Pumpkin Dicer 3.0"
+					type: "command"
+				}
+				{
+					id: "11D26E5CCC94297B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			shape: "pentagon"
+			size: 1.3d
+			subtitle: "You get WHAT???"
+			tasks: [{
+				block: "minecraft:carved_pumpkin"
+				block_type: 0
+				checkItem: false
+				icon: "minecraft:carved_pumpkin"
+				id: "635E259A486DFDF8"
+				title: "Break 100 Carved Pumpkins"
+				type: "questsadditions:break"
+				value: 100L
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+	]
+	subtitle: ["Grab it while you can."]
+	title: "Halloween 2024"
+}

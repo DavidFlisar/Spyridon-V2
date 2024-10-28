@@ -1,0 +1,572 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod__organics_2"
+	group: ""
+	icon: "organics:frozen_quartz"
+	id: "311F8823C05B2FCE"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2E55EDD62907888E"]
+			id: "6C0BAE9280E5C45C"
+			rewards: [{
+				id: "251B4A543838EC7B"
+				item: {
+					Count: 1
+					id: "organics:flint_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "First finish \"Mod - Organics\""
+			tasks: [{
+				count: 128L
+				id: "3B4CF05C41123BEE"
+				item: { Count: 128, id: "organics:renforced_dirt" }
+				title: "Craft 128x Renforced Dirt"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6C0BAE9280E5C45C"]
+			id: "6AB543B33ABC8F81"
+			rewards: [{
+				count: 20
+				id: "281C5E1D2D6AF6E5"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			subtitle: "Wowe."
+			tasks: [{
+				id: "236B89E7DADE19FA"
+				item: {
+					Count: 1
+					id: "organics:redstone_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Redstone Gun"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6AB543B33ABC8F81"]
+			id: "1A6C2D99269B9CA4"
+			rewards: [{
+				id: "302557A1FC068F55"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "miners_delight:long_haste"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Worth everything."
+			tasks: [{
+				id: "5EE651C54D11410F"
+				item: {
+					Count: 1
+					id: "organics:netherite_extratool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Netherite Extratool"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AB543B33ABC8F81"]
+			id: "47C6CC9FAF7B918B"
+			rewards: [{
+				id: "54B3B889D5B3C38E"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_night_vision"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Scuba diving baby!"
+			tasks: [{
+				id: "03E8814D3ECB2698"
+				item: {
+					Count: 1
+					id: "organics:water_breathing_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Water Breathing Helmet"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["47C6CC9FAF7B918B"]
+			description: [
+				"Obtain a Ender Pearl Block"
+				"{image:organics:block/ender_pearl_block width:50 height:50 align:1}"
+				""
+				"Use a Blast Furnace"
+				"{image:minecraft:block/blast_furnace_front width:50 height:50 align:1}"
+				""
+				""
+				"Insert the Ender Pearl Block with some fuel inside of Blast Furnace and you will obtain your first Enderite Ingot."
+			]
+			id: "71C16605F6A29640"
+			rewards: [{
+				id: "5BD97C59100749E0"
+				item: {
+					Count: 1
+					id: "organics:ender_crossbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1C3C6E6534E23A04"
+				item: { Count: 2, id: "organics:enderite_ingot" }
+				type: "item"
+			}]
+			title: "Craft 2x Enderite Ingot"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A6C2D99269B9CA4"]
+			id: "3B04B58C37FD5C12"
+			rewards: [{
+				id: "0EEC4D4F3DEA53B9"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "I suggest breaking with Silk Touch based on the next Quest :)"
+			tasks: [{
+				block: "organics:venomite_ore"
+				block_type: 0
+				checkItem: false
+				id: "30624B600242F7F2"
+				type: "questsadditions:break"
+				value: 4L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3B04B58C37FD5C12"]
+			id: "0BC379E8D52F0A6B"
+			rewards: [{
+				id: "08FF2D7767199969"
+				item: {
+					Count: 1
+					id: "organics:venomite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "You're a snake! (with this armor)"
+			tasks: [
+				{
+					id: "1C18926901A2E7B9"
+					item: {
+						Count: 1
+						id: "organics:venomite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0379B6C0E802768A"
+					item: {
+						Count: 1
+						id: "organics:venomite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6FD386A8EDF862A4"
+					item: {
+						Count: 1
+						id: "organics:venomite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64FF2C97C9911632"
+					item: {
+						Count: 1
+						id: "organics:venomite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a Venomite Armor Set"
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["71C16605F6A29640"]
+			id: "2D9E2CEB83B53958"
+			rewards: [{
+				id: "45E465FAC391B872"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Sonic?"
+			tasks: [{
+				id: "39C65FDEA1C66AEC"
+				item: {
+					Count: 1
+					id: "organics:speed_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft Speed Leggings"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0BC379E8D52F0A6B"]
+			id: "3789B2369BD769D7"
+			rewards: [{
+				count: 8
+				id: "59DF1801E6E5D66E"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			subtitle: "You need em."
+			tasks: [{
+				count: 4L
+				id: "0EB9AB2E1CB9ED61"
+				item: { Count: 4, id: "organics:blaze_rod_block" }
+				type: "item"
+			}]
+			title: "Craft 4x Blaze Rod Block"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D9E2CEB83B53958"]
+			id: "72005F6FE85390CE"
+			rewards: [{
+				id: "50BDA5889A01BF8C"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_fire_resistance"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Leader of the Nether."
+			tasks: [{
+				id: "64A520DB14FB5DCA"
+				item: {
+					Count: 1
+					id: "organics:blazed_diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Blazed Diamond Sword"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"3789B2369BD769D7"
+				"72005F6FE85390CE"
+			]
+			id: "1A9EB57E85B0F5CD"
+			rewards: [{
+				id: "3846C0E56A60BE86"
+				item: {
+					Count: 1
+					id: "organics:blazed_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "What are we building today?"
+			tasks: [{
+				id: "742E87ABC9B8B620"
+				item: "organics:blazed_block"
+				type: "item"
+			}]
+			title: "Craft a Blazed Block"
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A9EB57E85B0F5CD"]
+			id: "35BA2903F0ED3462"
+			rewards: [{
+				count: 8
+				id: "095092C596604E40"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			subtitle: "Playing with fire?"
+			tasks: [{
+				id: "4C8E9EA4CC9D1FEF"
+				item: {
+					Count: 1
+					id: "organics:blaze_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Blaze Blaster"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1A9EB57E85B0F5CD"]
+			id: "7AF5AE8F528B65D3"
+			rewards: [{
+				id: "216E18EA8A88B07E"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_leaping"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Only with this can you jump as high as Michael Jordan."
+			tasks: [{
+				id: "3280077FE59D1CA8"
+				item: {
+					Count: 1
+					id: "organics:jump_boost_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft Jump Boost Boots"
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7AF5AE8F528B65D3"]
+			id: "0A1A9E7B3E4CF80B"
+			rewards: [{
+				count: 2
+				id: "4DEA2F8E7854CA87"
+				item: "simplehats:hatbag_common"
+				type: "item"
+			}]
+			subtitle: "Don't abuse it."
+			tasks: [{
+				count: 4L
+				id: "6BFF85A28D38BBA3"
+				item: { Count: 4, id: "organics:iridite_block" }
+				type: "item"
+			}]
+			title: "Craft 4x Iridite Block"
+			x: 15.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A1A9E7B3E4CF80B"]
+			id: "1F214EADB3D1F788"
+			rewards: [{
+				id: "1D8445BE573022F7"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			subtitle: "I know what kind of a man you are."
+			tasks: [{
+				count: 4L
+				id: "63F2EF0FB7D1E06E"
+				item: { Count: 4, id: "organics:cave_iridite_block" }
+				type: "item"
+			}]
+			title: "Craft 4x Cave Iridite Block"
+			x: 18.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["35BA2903F0ED3462"]
+			id: "6C618B9744E24765"
+			rewards: [{
+				id: "2954EB7A3036ABE2"
+				item: {
+					Count: 1
+					id: "organics:blazed_netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "One of us, one of us!"
+			tasks: [
+				{
+					id: "2A23453A5651BB8B"
+					item: {
+						Count: 1
+						id: "organics:blazed_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "333A3A3A00E4FB88"
+					item: {
+						Count: 1
+						id: "organics:blazed_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71E80A1D216197B5"
+					item: {
+						Count: 1
+						id: "organics:blazed_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57B09F8C4F7EDD37"
+					item: {
+						Count: 1
+						id: "organics:blazed_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft a Blazed Armor Set"
+			x: 15.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6C618B9744E24765"]
+			id: "6CA6680556862E91"
+			rewards: [{
+				id: "498A2A55CF935B3F"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Hulk?"
+			tasks: [{
+				id: "4A718E9D39F32A54"
+				item: {
+					Count: 1
+					id: "organics:strength_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Strenght Chestplate"
+			x: 18.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"6CA6680556862E91"
+				"1F214EADB3D1F788"
+			]
+			id: "49CF9A4E3AAE61C2"
+			rewards: [{
+				id: "6DEFBAA9A03B3325"
+				item: {
+					Count: 1
+					id: "minecraft:lingering_potion"
+					tag: {
+						Potion: "miners_delight:long_haste"
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Be prepared for Organics #3"
+			tasks: [{
+				id: "43E54E66042B23D4"
+				item: {
+					Count: 1
+					id: "organics:haste_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Haste Chestplate"
+			x: 21.0d
+			y: 0.0d
+		}
+	]
+	title: "Mod - Organics #2"
+}

@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "intermediate_mining"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:golden_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1C38BC08B30447F9"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["10A6EF2EB180DACC"]
+			id: "237A224F13F28A6F"
+			rewards: [{
+				id: "5301B6C42357906B"
+				item: "minecraft:dispenser"
+				type: "item"
+			}]
+			subtitle: "You get the idea."
+			tasks: [{
+				block: "minecraft:redstone_ore"
+				block_type: 0
+				checkItem: false
+				id: "348902F854595BED"
+				title: "Break Redstone Ore"
+				type: "questsadditions:break"
+				value: 16L
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["10A6EF2EB180DACC"]
+			id: "1E1F895E5FD34052"
+			rewards: [{
+				id: "0CE9441567AC3FCA"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Great for enchanting!"
+			tasks: [{
+				block: "minecraft:lapis_ore"
+				block_type: 0
+				checkItem: false
+				id: "060F4A89A94BFF65"
+				title: "Break Lapis Ore"
+				type: "questsadditions:break"
+				value: 16L
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["10A6EF2EB180DACC"]
+			id: "79C9070F16EBA877"
+			rewards: [{
+				count: 2
+				id: "363030C64F5097CE"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "The most difficult of them all."
+			tasks: [{
+				block: "minecraft:emerald_ore"
+				block_type: 0
+				checkItem: false
+				id: "6804FC7BE9650BA2"
+				title: "Break Emerald Ore"
+				type: "questsadditions:break"
+				value: 4L
+			}]
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4C9852FE530F8BCC"]
+			description: ["Dedication."]
+			id: "10A6EF2EB180DACC"
+			rewards: [{
+				id: "0DCC5A943341859B"
+				item: {
+					Count: 1
+					id: "minecraft:potion"
+					tag: {
+						Potion: "alexscaves:haste"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "First finish Starter Mining!"
+			tasks: [{
+				id: "7EB1A966EE157E74"
+				title: "Good Luck"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["10A6EF2EB180DACC"]
+			id: "15E9A2B170309A6F"
+			rewards: [{
+				id: "38650DA3CAD46EFC"
+				item: "minecraft:lightning_rod"
+				type: "item"
+			}]
+			subtitle: "A fight with Zeus."
+			tasks: [{
+				block: "minecraft:copper_ore"
+				block_type: 0
+				checkItem: false
+				id: "77A68A9D5122FA04"
+				title: "Break Copper Ore"
+				type: "questsadditions:break"
+				value: 10L
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["237A224F13F28A6F"]
+			id: "49B923B56CD5D65F"
+			rewards: [{
+				id: "177BF5C08136C528"
+				item: "minecraft:target"
+				type: "item"
+			}]
+			subtitle: "Found at the bottom."
+			tasks: [{
+				block: "minecraft:deepslate_redstone_ore"
+				block_type: 0
+				checkItem: false
+				id: "33F77FB8135C1EDB"
+				title: "Break Deepslate Redstone Ore"
+				type: "questsadditions:break"
+				value: 12L
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E1F895E5FD34052"]
+			id: "6CE311771B90C820"
+			rewards: [{
+				count: 10
+				id: "472EADA02FD81CC1"
+				item: "minecraft:blue_dye"
+				type: "item"
+			}]
+			subtitle: "You wouldn't expect it to be there."
+			tasks: [{
+				block: "minecraft:deepslate_lapis_ore"
+				block_type: 0
+				checkItem: false
+				id: "476F2023381FB16B"
+				title: "Break Deepslate Lapis Ore"
+				type: "questsadditions:break"
+				value: 12L
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79C9070F16EBA877"]
+			id: "04181E20FBDACA16"
+			rewards: [{
+				id: "488D9AA814763E87"
+				item: "minecraft:lectern"
+				type: "item"
+			}]
+			subtitle: "There's loot in the mountains."
+			tasks: [{
+				block: "minecraft:deepslate_emerald_ore"
+				block_type: 0
+				checkItem: false
+				id: "5E7A73C8284D2C2F"
+				title: "Break Deepslate Emerald Ore"
+				type: "questsadditions:break"
+				value: 2L
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15E9A2B170309A6F"]
+			id: "2750A12EB1E73E26"
+			rewards: [{
+				count: 18
+				id: "67DFBEFF26EC7CAC"
+				item: "create:copper_nugget"
+				type: "item"
+			}]
+			subtitle: "Wrap Copper around a rock."
+			tasks: [{
+				block: "minecraft:deepslate_copper_ore"
+				block_type: 0
+				checkItem: false
+				id: "4B7CCCC091FA2262"
+				title: "Break Deepslate Copper Ore"
+				type: "questsadditions:break"
+				value: 6L
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"49B923B56CD5D65F"
+				"6CE311771B90C820"
+			]
+			id: "19B18C460DC1F29E"
+			rewards: [{
+				id: "167C893B01212E30"
+				item: {
+					Count: 1
+					id: "shieldexp:iron_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Work for it."
+			tasks: [{
+				block: "minecraft:deepslate_iron_ore"
+				block_type: 0
+				checkItem: false
+				id: "7229B84898063C82"
+				title: "Break Deepslate Iron Ore"
+				type: "questsadditions:break"
+				value: 16L
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"04181E20FBDACA16"
+				"2750A12EB1E73E26"
+			]
+			id: "579E4A775300F333"
+			rewards: [{
+				id: "39A6506E8CB56DAD"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			subtitle: "Keeps you warm at night."
+			tasks: [{
+				block: "minecraft:deepslate_coal_ore"
+				block_type: 0
+				checkItem: false
+				id: "0381690FC8C9777E"
+				title: "Break Deepslate Coal Ore"
+				type: "questsadditions:break"
+				value: 16L
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["3E8D73E4D43611B5"]
+			description: ["Place the Moyai on top of the Noteblock to get a stunning sound."]
+			id: "37A011A04A20CF4C"
+			rewards: [{
+				id: "40F5A621B884F025"
+				item: "minecraft:note_block"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Dwayne \"The Rock\" Johnson"
+			tasks: [{
+				block: "moyai:moyai"
+				block_type: 0
+				checkItem: false
+				id: "238789B40FD906C3"
+				title: "Break Moyai"
+				type: "questsadditions:break"
+				value: 1L
+			}]
+			title: "Find Moyai"
+			x: 4.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"579E4A775300F333"
+				"19B18C460DC1F29E"
+			]
+			id: "3E8D73E4D43611B5"
+			rewards: [{
+				id: "43D9B97C6DBD7821"
+				item: {
+					Count: 1
+					id: "lookinsharp:diamond_cutlass"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Broadway baby!"
+			tasks: [{
+				block: "minecraft:deepslate_diamond_ore"
+				block_type: 0
+				checkItem: false
+				id: "0B7131AA65EC5C03"
+				title: "Break Deepslate Diamond Ore"
+				type: "questsadditions:break"
+				value: 12L
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+	]
+	title: "Intermediate Mining"
+}

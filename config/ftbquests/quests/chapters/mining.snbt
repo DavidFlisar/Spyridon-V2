@@ -1,0 +1,284 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mining"
+	group: ""
+	icon: {
+		Count: 1
+		id: "minecraft:iron_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "1B3E8C0A994F6F69"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["You will need the coal later :)"]
+			id: "52FB9127CB9144BF"
+			rewards: [{
+				id: "03C967698C852EA0"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			subtitle: "A stony one, indeed."
+			tasks: [{
+				id: "4F8C46E8A0F51485"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Stone Pickaxe"
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52FB9127CB9144BF"]
+			id: "761BB81AC5705215"
+			rewards: [{
+				id: "3E1751B5D92FC063"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "Hidden near the start of caverns!"
+			tasks: [{
+				block: "minecraft:iron_ore"
+				block_type: 0
+				checkItem: false
+				icon: "minecraft:iron_ore"
+				id: "064A5B710B5C91DD"
+				title: "Break Iron Ore"
+				type: "questsadditions:break"
+				value: 12L
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["761BB81AC5705215"]
+			description: ["This supper is on us :) Of course, you can't cook it in there; that's what the Smoker is for!"]
+			id: "6886209CC4363000"
+			rewards: [{
+				id: "249C1133CFECF331"
+				item: "minecraft:porkchop"
+				type: "item"
+			}]
+			subtitle: "Creepers can be a serious concern."
+			tasks: [{
+				id: "0FB27683826CEFE8"
+				item: "minecraft:blast_furnace"
+				type: "item"
+			}]
+			title: "Craft a Blast Furnace"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6886209CC4363000"]
+			id: "2545C899EAFDC8BA"
+			rewards: [{
+				count: 4
+				id: "091145D2F733824D"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "To improve your luck, put on some flashy boots."
+			tasks: [
+				{
+					id: "0BA13546659C2739"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft Iron Boots"
+					type: "item"
+				}
+				{
+					id: "7A0EF80591B49378"
+					item: {
+						Count: 1
+						id: "minecraft:iron_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft Iron Pickaxe"
+					type: "item"
+				}
+			]
+			title: "Get Stylish"
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2545C899EAFDC8BA"]
+			id: "7A4582DAAC6A37B2"
+			rewards: [{
+				id: "6A5EA42C6AD04ADF"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			subtitle: "Stay out of the deep end."
+			tasks: [{
+				block: "minecraft:diamond_ore"
+				block_type: 0
+				checkItem: false
+				id: "33EEBC0938588978"
+				title: "Break Diamond Ore"
+				type: "questsadditions:break"
+				value: 3L
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7A4582DAAC6A37B2"]
+			description: ["Traveler, please get some rest."]
+			id: "1861182DD9A48B9E"
+			rewards: [{
+				id: "5470923AE12C58F2"
+				item: "comforts:sleeping_bag_purple"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43ADED35E16EBA9E"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Diamond Pickaxe"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1861182DD9A48B9E"]
+			description: ["Piglins will love you for your personality."]
+			id: "3758CB9A6FB7D4D2"
+			rewards: [{
+				id: "644487C8F26F67A8"
+				item: {
+					Count: 1
+					id: "minecraft:golden_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Make a 5x5 portal for fun"
+			tasks: [
+				{
+					block: "minecraft:obsidian"
+					block_type: 0
+					checkItem: false
+					id: "495004927377A955"
+					title: "Break Obsidian"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					id: "191ABCDDF5F440AD"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft Flint and Steel"
+					type: "item"
+				}
+			]
+			title: "Make a Nether Portal"
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3758CB9A6FB7D4D2"]
+			id: "4C9852FE530F8BCC"
+			rewards: [{
+				count: 2
+				id: "4E221614D2928D03"
+				item: "minecraft:enchanted_golden_apple"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "You can't survive without it."
+			tasks: [
+				{
+					id: "2C521D7939CA788C"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft Diamond Helmet"
+					type: "item"
+				}
+				{
+					id: "05F7D96052E9415A"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft Diamond Chestplate"
+					type: "item"
+				}
+				{
+					id: "6ECB63B393447130"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft Diamond Leggings"
+					type: "item"
+				}
+				{
+					id: "29C40FECDD0E7BAA"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					title: "Craft Diamond Boots"
+					type: "item"
+				}
+				{
+					id: "35FD09CD755CECA9"
+					item: "sophisticatedbackpacks:backpack"
+					title: "Craft Backpack"
+					type: "item"
+				}
+			]
+			title: "Preparations"
+			x: 9.0d
+			y: -1.0d
+		}
+	]
+	subtitle: ["You will eventually need it."]
+	title: "Starter Mining"
+}

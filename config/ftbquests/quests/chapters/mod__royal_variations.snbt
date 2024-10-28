@@ -1,0 +1,110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod__royal_variations"
+	group: ""
+	icon: {
+		Count: 1
+		id: "royalvariations:royal_staff"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2CC17462780EB909"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4C9852FE530F8BCC"]
+			icon: "minecraft:zombie_head"
+			id: "5AB4A4C3BBA40D56"
+			rewards: [{
+				id: "1906DA3B933040B6"
+				item: "royalvariations:spiritual_crown"
+				type: "item"
+			}]
+			subtitle: "First finish Starter Mining."
+			tasks: [{
+				entity: "royalvariations:royal_zombie"
+				id: "3B232FE52B673F49"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a Royal Zombie"
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5AB4A4C3BBA40D56"]
+			icon: "minecraft:skeleton_skull"
+			id: "0C931F0D55DD9E70"
+			rewards: [{
+				id: "11E5F2789EA1048B"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "They lurk in caves."
+			tasks: [{
+				entity: "royalvariations:royal_skeleton"
+				id: "2227E54C7A4440EC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Kill a Royal Skeleton"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0C931F0D55DD9E70"]
+			icon: "minecraft:creeper_head"
+			id: "2754CE31E50FA2F9"
+			rewards: [{
+				id: "35F51C243BDC6BB4"
+				item: "royalvariations:royal_bomb"
+				type: "item"
+			}]
+			subtitle: "The explosion may be bigger."
+			tasks: [{
+				entity: "royalvariations:royal_creeper"
+				id: "67968F29FB4361EC"
+				type: "kill"
+				value: 2L
+			}]
+			title: "Kill a Royal Creeper"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2754CE31E50FA2F9"]
+			id: "66CF205BAA8FB69C"
+			rewards: [{
+				id: "0A474BC04963729B"
+				item: {
+					Count: 1
+					id: "minecraft:golden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "Royal Zombies drop that usually."
+			tasks: [{
+				id: "6A0F44BF41F28BB2"
+				item: {
+					Count: 1
+					id: "royalvariations:royal_knight_helmet_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Obtain a Royal Knight Helmet"
+			x: 2.0d
+			y: -0.5d
+		}
+	]
+	title: "Mod - Royal Variations"
+}

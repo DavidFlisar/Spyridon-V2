@@ -1,0 +1,149 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod__shield_expansion"
+	group: ""
+	icon: {
+		Count: 1
+		id: "shieldexp:diamond_shield"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "7D888DF52C9C074C"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4C9852FE530F8BCC"]
+			id: "7E17C1CB345433F0"
+			rewards: [{
+				id: "17D735F3B1DA212E"
+				item: {
+					Count: 1
+					id: "minecraft:bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "First finish Starter Mining."
+			tasks: [{
+				id: "52E79E5DC5299D61"
+				item: {
+					Count: 1
+					id: "shieldexp:wooden_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Wooden Shield"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7E17C1CB345433F0"]
+			id: "50113B2709E7E851"
+			rewards: [{
+				count: 12
+				id: "47C0510C6BC13BBC"
+				item: "minecraft:arrow"
+				type: "item"
+			}]
+			subtitle: "Keeps you safe."
+			tasks: [{
+				id: "079D9333DF5173A4"
+				item: {
+					Count: 1
+					id: "shieldexp:iron_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Iron Shield"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["50113B2709E7E851"]
+			id: "77687D2F4ACC6327"
+			rewards: [{
+				count: 3
+				id: "729D1B246B2158EC"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			subtitle: "Take it with you to The Nether."
+			tasks: [{
+				id: "634A63BEE3F9C93F"
+				item: {
+					Count: 1
+					id: "shieldexp:golden_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Gold Shield"
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["77687D2F4ACC6327"]
+			id: "4723EDA6B7DF4B82"
+			rewards: [{
+				id: "77817F5AA1FCD5FE"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "YOU are a powerful being."
+			tasks: [{
+				id: "68F313A7B5FB3270"
+				item: {
+					Count: 1
+					id: "shieldexp:diamond_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Diamond Shield"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4723EDA6B7DF4B82"]
+			id: "3A6D1AEDAD0B72BB"
+			rewards: [{
+				count: 3
+				id: "7C0B5A38BF255352"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "The chosen one."
+			tasks: [{
+				id: "20F62523AC47AA71"
+				item: {
+					Count: 1
+					id: "shieldexp:netherite_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Netherite Shield"
+			x: 3.0d
+			y: -0.5d
+		}
+	]
+	title: "Mod - Shield Expansion"
+}
