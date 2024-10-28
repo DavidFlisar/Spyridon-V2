@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    "$minecraft:weapon",
+    "farmersdelight:skillet"
+  ],
+  "incompatible": [
+    "deeperdarker:sculk_smite",
+    "minecraft:smite",
+    "minecraft:sharpness",
+    "endlessbiomes:vwooping",
+    "minecraft:bane_of_arthropods"
+  ]
+}
